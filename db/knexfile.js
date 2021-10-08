@@ -6,8 +6,8 @@ module.exports = {
     client: "postgresql",
     connection: {
       database: "objection_tutorial",
-      user: "administrator",
-      password: null,
+      user: "postgres",
+      password: "postgres",
     },
     pool: {
       min: 2,
